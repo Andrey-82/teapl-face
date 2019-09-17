@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 авг. 2019 г., 17:33:43
+    Author     : andrey
+*/
+body { 
+    font: 14px/24px 'Helvetica Neue', Arial, sans-serif; 
+    color: #333; width: 960px; 
+    margin: 30px auto 60px; 
+    background: #eee; 
+}
+.node-black {
+    background-color: #030303;
+    font: 14px/24px 'Helvetica Neue', Arial, sans-serif;
+    color: #fff;
+    width: 100vw;
+}
+.node-light {
+    background-color: #F3F3F3;
+    font: 14px/24px 'Helvetica Neue', Arial, sans-serif;
+    color: #000;
+    width: 100vw;
+}
+
+.headerNode{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.black-z-depth-5{
+    box-shadow: 0 3px 2px 2px rgba(250, 250, 250, 0.14), 0px 2px 2px 2px rgba(250, 250, 250, 0.12), 2px 2px 2px -5px rgba(250, 250, 250, 0.15);
+    padding: 10px !important;
+    margin: 5px;
+    background-color: #444;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    align-self: stretch ;
+    }
+
+.z-depth-1, .z-depth-2{
+    /*box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px 2px rgba(0, 0, 0, 0.12), 2px 2px 2px -5px rgba(0, 0, 0, 0.15);*/
+    padding: 10px !important;
+    margin: 5px;
+    background-color: #fff;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    align-self: stretch ;
+    }
+
+.contentNode{
+    /*flex-shrink: 0;*/
+    flex-basis: 500px;
+    }
+.grow-1 {
+    flex-grow: 1;
+    }
+.grow-2 {
+    flex-grow: 2;
+    }
+.grow-3 {
+    flex-grow: 3;
+    }
+.grow-4 {
+    flex-grow: 4;
+    }
+.grow-5 {
+    flex-grow: 5;
+    }
+.grow-6 {
+    flex-grow: 6;
+    }
+#three .slide > h2 span, .slide b {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+.liteAccordion .content {
+    padding: 20px;
+    color: #fff;
+}
+.liteAccordion .select-wrapper input.select-dropdown, 
+nm.liteAccordion .select-wrapper input.select-dropdown:focus {
+    border-bottom: 0;
+    text-align: center;
+    color: #d5ceaa;
+}
+.liteAccordion .content .btn-large{
+    padding: 0 28px;
+}
+.liteAccordion .content .select-wrapper .caret {
+    fill: rgba(254,253,251,0.87);
+}
+.content a {
+    color: #d5ceaa;
+}
+.liteAccordion .collapsible-header{
+    margin: 10px;
+    padding: 15px;
+    /*display: block;*/
+    justify-content: space-between;
+}
+
+.liteAccordion .collapsible-body {
+    padding: 15px;
+}
+
+.edit-delete {
+    float: right;
+}
+.edit-delete i.left {
+    margin: 0 15px;
+}
+

@@ -1,0 +1,22 @@
+import React from 'react';
+
+export default class NodeBody extends React.Component {
+    render() {
+        return (
+            <div>
+                <div className="contentNode z-depth-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Sit amet dictum sit amet justo donec enim diam. A diam maecenas sed enim ut sem viverra aliquet. Ultricies mi eget mauris pharetra. Eget duis at tellus at urna condimentum mattis. Id diam maecenas ultricies mi eget mauris pharetra et. Quam pellentesque nec nam aliquam. Sed faucibus turpis in eu. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Libero id faucibus nisl tincidunt eget. Nam aliquam sem et tortor consequat id porta. Nulla posuere sollicitudin aliquam ultrices sagittis. Consequat ac felis donec et odio pellentesque diam volutpat. Ipsum consequat nisl vel pretium lectus quam id leo in. Malesuada proin libero nunc consequat. Rhoncus dolor purus non enim praesent. Sed risus pretium quam vulputate dignissim suspendisse in est. Nam at lectus urna duis convallis convallis tellus.</p>
+
+                    <p>Consequat ac felis donec et odio. Nam libero justo laoreet sit amet. Vitae semper quis lectus nulla at. Ipsum a arcu cursus vitae congue. Et netus et malesuada fames ac turpis egestas. Lectus urna duis convallis convallis tellus. Dignissim convallis aenean et tortor. Egestas quis ipsum suspendisse ultrices gravida. Eget arcu dictum varius duis at consectetur. Facilisi nullam vehicula ipsum a. Convallis posuere morbi leo urna. Nulla facilisi nullam vehicula ipsum a arcu. Massa eget egestas purus viverra accumsan in. Cursus eget nunc scelerisque viverra mauris in aliquam.</p>
+
+                    <p>Ornare suspendisse sed nisi lacus sed viverra tellus. Ultrices gravida dictum fusce ut placerat. Quis hendrerit dolor magna eget est lorem ipsum. Enim diam vulputate ut pharetra sit. Est velit egestas dui id ornare arcu odio ut sem. Ante metus dictum at tempor commodo ullamcorper. Faucibus turpis in eu mi bibendum neque egestas congue. Nec dui nunc mattis enim ut tellus elementum sagittis. Dictum sit amet justo donec enim diam vulputate. Malesuada pellentesque elit eget gravida cum sociis natoque. Odio morbi quis commodo odio aenean sed adipiscing diam. Turpis egestas sed tempus urna. Urna et pharetra pharetra massa massa ultricies mi quis hendrerit.</p>
+
+                    <p>Dolor sed viverra ipsum nunc aliquet bibendum. Rhoncus mattis rhoncus urna neque. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Vel facilisis volutpat est velit egestas dui. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Amet consectetur adipiscing elit pellentesque habitant. Velit ut tortor pretium viverra suspendisse potenti. Nulla posuere sollicitudin aliquam ultrices sagittis. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Aliquet nibh praesent tristique magna sit. Venenatis lectus magna fringilla urna porttitor rhoncus. Pellentesque id nibh tortor id aliquet lectus proin nibh. Ornare arcu odio ut sem nulla. Sit amet justo donec enim diam vulputate. Quam quisque id diam vel. Sed augue lacus viverra vitae congue.</p>
+
+                    <p>Cursus risus at ultrices mi tempus imperdiet nulla. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Et magnis dis parturient montes nascetur ridiculus. Dolor purus non enim praesent elementum facilisis leo. Et magnis dis parturient montes nascetur. Commodo viverra maecenas accumsan lacus. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Odio pellentesque diam volutpat commodo sed egestas. Blandit volutpat maecenas volutpat blandit aliquam. Et netus et malesuada fames ac turpis egestas integer eget. Pellentesque id nibh tortor id. Arcu ac tortor dignissim convallis aenean et. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Ornare lectus sit amet est placerat. Cras pulvinar mattis nunc sed. Netus et malesuada fames ac turpis egestas sed tempus urna. Nibh ipsum consequat nisl vel pretium lectus quam id. Faucibus turpis in eu mi bibendum neque egestas congue.</p>
+                </div>
+            </div>
+        )
+    }
+}
+
