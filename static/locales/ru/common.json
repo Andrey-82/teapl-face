@@ -1,0 +1,7 @@
+{
+  "h1": "Простой пример",
+  "change-locale": "Изменить локаль",
+  "to-second-page": "На вторую страницу",
+  "error-with-status": " {{statusCode}} ошибка сервера",
+  "error-without-status": "Неизвестная ошибка сервера"
+}
