@@ -5,30 +5,10 @@ import { appWithTranslation } from '../i18n'
 import 'materialize-css/dist/css/materialize.min.css'
 import '../static/teapl.css'
 
-class Teapl extends App {
-    
-    componentDidMount() {
-        if ("serviceWorker" in navigator) {
-          navigator.serviceWorker
-            .register("/service-worker.js")
-            .then(registration => {
-              console.log("service worker registration successful: ", registration);
-            })
-            .catch(err => {
-              console.warn("service worker registration failed", err.message);
-            });
-        }
-    }
-    
-    static async getInitialProps({ Component, ctx }) {
-    let pageProps = {};
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx);
-    }
-
-    return { pageProps };
-  }
+class Teapl extends App {    
+getInitialProps = async () => ({
+  namespacesRequired: ['common', 'node']
+});
   render() {
     const { Component, pageProps } = this.props;
     return (
@@ -41,6 +21,9 @@ class Teapl extends App {
                 content="initial-scale=1.0, width=device-width"
             />
             <link rel="manifest" href="/static/manifest.json" />
+            <link rel="shortcut icon" href="/static/favicon.png" type="image/x-icon" />
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+            <script src="/static/regSW.js"></script>
         </Head>
         <Component {...pageProps} />
       </Container>
