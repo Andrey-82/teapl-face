@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from '../routes'
-//import { i18n, Link, withTranslation } from 'next-i18next'
+import {withTranslation} from '../i18n'
 
 const Home = () => (
   <div>
@@ -11,5 +11,8 @@ const Home = () => (
     </div>    
   </div>
 );
+Home.getInitialProps = async () => ({
+  namespacesRequired: ['common']
+});
 
-export default Home
+export default withTranslation('common')(Home)
