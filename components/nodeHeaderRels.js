@@ -7,7 +7,7 @@ const NodeHeaderRels = ({t}) => (
             <div>{t('Parent nodes')}:</div>
             <div>{t('Child nodes')}:</div>
             <div className="center">
-            <a className="btn"><i className="material-icons left">edit</i> edit </a>
+            <a className="btn"><i className="material-icons left">edit</i> {t('edit')} </a>
                             <br />
                     <a href="/admin2016/teapl/js/LiteAccordion-master/#slide-one">{t('All nodes')}</a>
                             <br />
