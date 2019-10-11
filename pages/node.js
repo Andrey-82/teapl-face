@@ -13,6 +13,14 @@ const Node = ({t}) => (
         type='button'
         onClick={() => i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')}
     >{t('changeLanguage')}</button>
+    <button
+        className="btn"
+        type='button'
+        onClick={() => {
+            console.log(window.deferredPrompt);
+            window.deferredPrompt.prompt();
+        }}
+    >установить</button>
       <NodeHeader />
       <NodeBody />
     </div>
@@ -20,7 +28,7 @@ const Node = ({t}) => (
 );
 
 Node.getInitialProps = async () => ({
-  namespacesRequired: ['node', 'node']
+  namespacesRequired: ['common','node', 'nodeHeaderData', 'nodeHeaderRels']
 });
 
 Node.propTypes = {
@@ -28,4 +36,3 @@ Node.propTypes = {
 };
 
 export default withTranslation('node')(Node)
-
